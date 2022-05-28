@@ -16,8 +16,9 @@ class Task:
         return infoMsg
 
     def dayToInt(self):
-        day = self.dayOfWeek.split()
+        day = self.dayOfWeek
         dayToInt = ""
+
         for d in day:
             if d == "월":
                 dayToInt += "0"
