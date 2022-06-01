@@ -19,7 +19,7 @@ def isWeekend():
 
 def isHoliday(holidays, sysdate):
     for holiday in holidays:
-        if holiday == sysdate:
+        if str(holiday) == sysdate:
             return True
 
     return False
